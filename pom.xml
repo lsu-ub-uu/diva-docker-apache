@@ -48,7 +48,7 @@
 	<dependencies>
 		<dependency>
 			<groupId>se.uu.ub.cora</groupId>
-			<artifactId>cora-docker-postgresql</artifactId>
+			<artifactId>cora-docker-apache</artifactId>
 			<version>${cora-docker-apache.version}</version>
 			<type>pom</type>
 		</dependency>
