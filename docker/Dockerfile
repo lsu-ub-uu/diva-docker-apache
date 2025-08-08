@@ -1,4 +1,4 @@
-ARG CORA_DOCKER_VERSION=dummy_version_it_will_be_replaced_by_pom
+ARG CORA_DOCKER_VERSION
 FROM cora-docker-apache:${CORA_DOCKER_VERSION}
 
 # Add reverse proxy conf
