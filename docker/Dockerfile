@@ -1,8 +1,6 @@
 ARG CORA_DOCKER_VERSION=toBeSet
 FROM cora-docker-apache:${CORA_DOCKER_VERSION}
 
-ARG SHIBBOLETH_ENTITY_ID_ARG=someEntityId
-
 # Add reverse proxy conf
 COPY files/apache/diva-proxy-vhosts.conf /usr/local/apache2/conf/extra/diva-proxy-vhosts.conf
 RUN echo "Include conf/extra/diva-proxy-vhosts.conf" \
