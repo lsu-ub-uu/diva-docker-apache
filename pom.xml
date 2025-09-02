@@ -27,7 +27,7 @@
 
 	<artifactId>diva-docker-apache</artifactId>
 	<packaging>pom</packaging>
-	<version>1.3-SNAPSHOT</version>
+	<version>1.4-SNAPSHOT</version>
 	<name>Diva docker for Apache</name>
 
 	<properties>
