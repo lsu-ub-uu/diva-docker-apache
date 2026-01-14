@@ -1,7 +1,4 @@
 #!/bin/bash
-: "${FITNESSE_CONTEXT_ROOT_ARG:=someContextRoot}"
-: "${DIVA_CLIENT_CONTEXT_ROOT_ARG:=someContextRoot}"
-
 cp -f /etc/shibboleth/credentials/* /etc/shibboleth/
 
 sed -i "s|{SERVER_NAME}|${SERVER_NAME_ARG}|g" /usr/local/apache2/conf/extra/cora-vhosts.conf
