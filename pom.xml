@@ -33,7 +33,7 @@
 	<properties>
 		<!-- Override property so docker-build profile activates in this module -->
 		<docker.build.activate>true</docker.build.activate>
-		<cora-docker-apache.version>1.4.0</cora-docker-apache.version>
+		<cora-docker-apache.version>1.5.0</cora-docker-apache.version>
 	</properties>
 
 	<scm>
