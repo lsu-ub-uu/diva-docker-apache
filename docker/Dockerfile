@@ -8,4 +8,7 @@ RUN echo "Include conf/extra/cora-vhosts.conf" >> /usr/local/apache2/conf/httpd.
 COPY entrypoint.sh .
 RUN chmod +x entrypoint.sh
 
+COPY generate-robots.sh .
+RUN chmod +x generate-robots.sh
+
 ENTRYPOINT ["./entrypoint.sh"]
